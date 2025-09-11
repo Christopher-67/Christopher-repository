@@ -20,21 +20,45 @@ t.shape('turtle')
 #      t.left(90)
 #      t.forward(x)
 #      t.left(90)
-# square(100)
+# square(200)
 
-def equal(x):
-     t.forward(x)
-     t.left(120)
-     t.forward(x)
-     t.left(120)
-     t.forward(x)
-equal(200)
+# def equal(x):
+#      t.forward(x)
+#      t.left(120)
+#      t.forward(x)
+#      t.left(120)
+#      t.forward(x)
+# equal(200)
 
-def right():
+# def right():
+#      t.forward(100)
+#      t.left(90)
+#      t.forward(100)
+#      t.left(135)
+#      t,forward(142)
+# right()
+
+# def rectangle(x):
+#      t.forward(100)
+#      t.left(90)
+#      t.forward(125)
+#      t.left(90) 
+#      t.forward(100)
+#      t.left(90)
+#      t.forward(125)
+#      t.left(90)
+# rectangle(300)
+
+# def equal(x):
+#      t.forward(x)
+#      t.left(90)
+#      t.forward(x)
+#      t.left(90)
+#      t.forward(x)
+# equal(200)
+
+for i in range(4):
      t.forward(100)
      t.left(90)
-     t.forward(100)
-     t.left(135)
-     t,forward(142)
 
-turtle.done()
+     turtle.done()
