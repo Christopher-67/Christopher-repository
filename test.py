@@ -83,12 +83,14 @@ t.shape('turtle')
 
 # circleSquare(100,60)
 
+# t.speed(0)
 # for i in range(72):  
 #     for j in range(4): 
 #         t.forward(100)
 #         t.left(90)
 #     t.left(5) 
 
+# t.speed(0)
 # size = 20 
 # for i in range(5):
 #     for j in range(4):  
@@ -96,14 +98,16 @@ t.shape('turtle')
 #         t.left(90)
 #     size += 20  
 
-# size = 10 
-# for i in range(60): 
-#     for j in range(4):  
-#         t.forward(size)
-#         t.right(90)
-#     t.right(10)   
-#     size += 5  
+t.speed(0)
+size = 10 
+for i in range(60): 
+    for j in range(4):  
+        t.forward(size)
+        t.right(90)
+    t.right(10)   
+    size += 5  
 
+# t.speed(0)
 # size = 5 
 # for i in range(80): 
 #     for j in range(3): 
