@@ -30,14 +30,6 @@ t.shape('turtle')
 #      t.forward(x)
 # equal(200)
 
-# def right():
-#      t.forward(100)
-#      t.left(90)
-#      t.forward(100)
-#      t.left(135)
-#      t,forward(142)
-# right()
-
 # def rectangle(x):
 #      t.forward(100)
 #      t.left(90)
@@ -55,14 +47,10 @@ t.shape('turtle')
 #      t.forward(x)
 #      t.left(90)
 #      t.forward(x)
-# equal(200) """
+# equal(200)
 
 # sidelength = 100
 # rotate = 90
-# def square(x,y):
-#  for i in range(4):
-#      t.forward(x)
-#      t.left(y)
 # triangle(100,90)
 # def manySquares(x):
 #       y = 10
@@ -72,11 +60,56 @@ t.shape('turtle')
 #       t.left(5)
 # manySquares(60)
 
-def doublesquares(iRange):
-    length = 25
-    for i in range(iRange):
-        square(length, 90)
-        length = length * 2
-doublesquares(5)
+# def doublesquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length = length * 2
+#         t.degrees = length
+
+# def square(x,y):
+#     for i in range(4):
+#         t.forward(x)
+#         t.left(y)
+
+# def circleSquare(lenght, sqaureNum):
+#     degrees = 5
+#     t.speed = 10
+#     for i in range(sqaureNum):
+#         square(lenght, 90)
+#         t.left(degrees)
+#         degrees += 5
+       
+
+# circleSquare(100,60)
+
+# for i in range(72):  
+#     for j in range(4): 
+#         t.forward(100)
+#         t.left(90)
+#     t.left(5) 
+
+# size = 20 
+# for i in range(5):
+#     for j in range(4):  
+#         t.forward(size)
+#         t.left(90)
+#     size += 20  
+
+# size = 10 
+# for i in range(60): 
+#     for j in range(4):  
+#         t.forward(size)
+#         t.right(90)
+#     t.right(10)   
+#     size += 5  
+
+size = 5 
+for i in range(80): 
+    for j in range(3): 
+        t.forward(size)
+        t.right(120)
+    t.right(10) 
+    size += 5   
 
 turtle.done()
