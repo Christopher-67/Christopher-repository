@@ -103,7 +103,11 @@ size = 10
 for i in range(60): 
     for j in range(4):  
         t.forward(size)
-        t.right(90)
+        t.right(144)
+        t.forward(size)
+        t.right(144)
+        t.forward(size)
+        t.right(144)
     t.right(10)   
     size += 5  
 
@@ -112,8 +116,12 @@ for i in range(60):
 # for i in range(80): 
 #     for j in range(3): 
 #         t.forward(size)
-#         t.right(120)
-#     t.right(10) 
+#         t.left(144)
+#         t.forward(size)
+#         t.left(144)
+#         t.forward(size)
+#         t.left(144)
+#     t.right(65) 
 #     size += 5
 
 turtle.done()
