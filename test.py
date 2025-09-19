@@ -113,6 +113,13 @@ t.shape('turtle')
 #     t.right(65) 
 #     size += 5
 
-
+t.speed(0)
+size = 10 
+for i in range(60): 
+    for j in range(5):
+        t.forward(size)
+        t.right(144)
+    t.right(10)
+    size += 5     
 
 turtle.done()
